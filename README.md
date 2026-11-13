@@ -4,7 +4,8 @@ Homebrew tap for [kblock](https://github.com/kromtom/kblock), a macOS CLI that l
 
 ```sh
 brew tap kromtom/kblock
+brew trust kromtom/kblock
 brew install kblock
 ```
 
-Or in one step: `brew install kromtom/kblock/kblock`.
+Homebrew does not load formulae from a third-party tap until you trust it, so `brew trust` is required.
